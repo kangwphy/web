@@ -1,4 +1,4 @@
-baseURL = "https://www.adrianmoreno.info"
+baseURL = "http://aaa.com"
 languageCode = "en-us"
 theme = "adritian-free-hugo-theme"
 
@@ -25,20 +25,25 @@ theme = "adritian-free-hugo-theme"
 # navigation
 [menu]
 
-  [[menu.header]]
-  name = "About"
-  URL = "#about"
-  weight = 2
+#  [[menu.header]]
+#  name = "About"
+#  URL = "#about"
+#  weight = 2
 
-  [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
+#  [[menu.header]]
+#  name = "Portfolio"
+#  URL = "#portfolio"
+#  weight = 3
 
 #  [[menu.header]]
 #  name = "Experience"
 #  URL = "#experience"
 #  weight = 4
+
+  [[menu.header]]
+  name = "CV"
+  URL = ""
+  weight = 4
 
   [[menu.header]]
   name = "Blog"
@@ -80,8 +85,8 @@ theme = "adritian-free-hugo-theme"
       enabled = false
   
   [params.logo]
-    text1 = "Cool"
-    text2 = "Name"
+    text1 = "Kang"
+    text2 = "Wang"
 
   [params.footer]
       copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
